@@ -121,6 +121,7 @@ nav.bg-mad .navbar-nav li:not(:first-child) {
     margin-left: 20px;
 }
 
+
 nav.bg-mad li a {
     color: #fff !important;
     font-family: 'Raleway', sans-serif;
@@ -131,7 +132,9 @@ nav.bg-mad li a {
     line-height: 41px;
     margin-bottom: 5px;
 }
-
+.dropdown-menu a.dropdown-item{
+    padding: 12px 15px !important;
+}
 nav.bg-mad li.active a, nav.bg-mad li a:hover {
     border-bottom: 2px solid #ffc42c;
 
