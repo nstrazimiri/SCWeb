@@ -23,7 +23,7 @@
 		</div>
 		<div class="row" id="goldbg">
 			<div class="cont">
-				<div class="col-md-3"><a href="mad/index.html"><h2>MAD</h2><h4>B990</h4><h5>Mobile Applications Development</h5></a></div>
+				<div class="col-md-3"><a href="mad/"><h2>MAD</h2><h4>B990</h4><h5>Mobile Applications Development</h5></a></div>
 				<div class="col-md-3"><a href="/net"><h2>NET</h2><h4>T860/T861</h4><h5>Computer Systems Networking</h5></a></div>
 				<div class="col-md-3"><a href="/web"><h2>WEB</h2><h4>B948</h4><h5>Web Development<br>&nbsp;</h5></a></div>
 				<div class="col-md-3"><a href="/dab"><h2>DAB</h2><h4>B018</h4><h5>Data Analytics for Business</h5></a></div>
@@ -33,7 +33,7 @@
 	</div>
 	<div class="container ft">
 		<footer>
-			<p>St. Clair College | All Rights Reserved 2019 ©</p>
+			<p>St. Clair College | All Rights Reserved <?=date('Y');?> &copy;</p>
 		</footer>
 	</div>
     <!-- Optional JavaScript -->
