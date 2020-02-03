@@ -53,14 +53,14 @@ include "includes/header.php";
                 <p> <a target="_blank" href="http://www.tcu.gov.on.ca/pepg/audiences/colleges/progstan/">Here are the vocational learning outcomes for.</a></p>
             </section>
             <section>
-                <h5>Your Investment</h5>
-                <p>Fees are subject to adjustment each year. The fees for the current academic year are as follows:</p>
+                <h5>Programming Streams</h5>
                 <ul>
-                    <li><a target="_blank" href="https://www.stclaircollege.ca/registrar/">Total 1st Year Tuition and Compulsory Fees: $3,502.37</a></li>
-                    <li><a target="_blank" href="https://www.bkstr.com/stclairwindsorstore/home">For textbook prices see the College Bookstore website.</a></li>
-                    <li><a target="_blank" href="http://www.stclaircollege.ca/registrar/">For a breakdown of tuition and other compulsory fees for Canadian, U.S. and International students, see Tuition & Fees.</a></li>
+                    <li>Java Programming</li>
+                    <li>Android Development</li>
+                    <li>iOS Development</li>
+                    <li>Web Development</li>
+                    <li>Game Development</li>
                 </ul>
-                <p>Please be aware that tuition and compulsory fees are subject to adjustment each year. The College reserves the right to change, amend or alter fees as necessary without notice or prejudice.</p>
             </section>
             <section>
                 <h5>PROGRAM HIGHLIGHTS</h5>
@@ -84,15 +84,229 @@ include "includes/header.php";
             <section>
                 <h5>DIPLOMA REQUIREMENTS</h5>
                 <div id="fallbuttons">
-                    <button class="btn btn-fall changeyearbtn" id="fall2016">Fall 2016</button>
                     <button class="btn btn-fall changeyearbtn" id="fall2017">Fall 2017</button>
                     <button class="btn btn-fall changeyearbtn" id="fall2018">Fall 2018</button>
-                    <button class="btn btn-success changeyearbtn" id="fall2019">Fall 2019</button>
+                    <button class="btn btn-fall changeyearbtn" id="fall2019">Fall 2019</button>
+                    <button class="btn btn-success changeyearbtn" id="fall2020">Fall 2020</button>
                 </div>
             </section>
 
 
 
+            <div class="tables fall2020">
+                <h2>FALL 2020 COHORT</h2>
+                <table class="table table-hover" id="theprograms">
+                    <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Credit</th>
+                        <th>Course Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 1 | Fall 2020</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#WEB110" class="programs" id="WEB110">WEB110</a></td>
+                        <td>4</td>
+                        <td>HTML & CSS</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD102" class="programs" id="MAD102">MAD102</a></td>
+                        <td>4</td>
+                        <td>Introductory Programming Logic</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD101" class="programs" id="MAD101">MAD101</a></td>
+                        <td>4</td>
+                        <td>Working with Graphics</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD100" class="programs" id="MAD100">MAD100</a></td>
+                        <td>5</td>
+                        <td>Java Programming I</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD103" class="programs" id="MAD103">MAD103</a></td>
+                        <td>3</td>
+                        <td>Data Fundamentals</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MIT201" class="programs" id="MIT201">MIT201</a></td>
+                        <td>3</td>
+                        <td>Law & Ethics in the Digital Age</td>
+                    </tr>
+                    <tr class="quarterspace"></tr>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 2 | Winter 2021</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#WEB205" class="programs" id="WEB205">WEB205</a></td>
+                        <td>4</td>
+                        <td>PHP Basics</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#WEB210" class="programs" id="WEB210">WEB210</a></td>
+                        <td>4</td>
+                        <td>Web Design / CSS</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#WEB230" class="programs" id="WEB230">WEB230</a></td>
+                        <td>4</td>
+                        <td>Javascript I</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD200" class="programs" id="MAD200">MAD200</a></td>
+                        <td>4</td>
+                        <td>Java Programming II</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD205" class="programs" id="MAD205">MAD205</a></td>
+                        <td>4</td>
+                        <td>Android Development I</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
+                        <td>3</td>
+                        <td>Choose one General Education Course</td>
+                    </tr>
+                    <tr class="quarterspace"></tr>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 3 | Fall 2021</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD303" class="programs" id="MAD303">MAD303</a></td>
+                        <td>4</td>
+                        <td>Web Applications with PHP and MYSQL</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD304" class="programs" id="MAD304">MAD304</a></td>
+                        <td>4</td>
+                        <td>Object-Oriented Analysis and Design</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD300" class="programs" id="MAD300">MAD300</a></td>
+                        <td>4</td>
+                        <td>Java Programming III</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD305" class="programs" id="MAD305">MAD305</a></td>
+                        <td>4</td>
+                        <td>Android Development II</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD310" class="programs" id="MAD310">MAD310</a></td>
+                        <td>5</td>
+                        <td>iOS Development I</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="table table-hover" id="theprograms2">
+                    <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Credit</th>
+                        <th>Course Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 4 | Winter 2022</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD403" class="programs" id="MAD403">MAD403</a></td>
+                        <td>4</td>
+                        <td>Advanced Web Applications with PHP and MYSQL</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD402" class="programs" id="MAD402">MAD402</a></td>
+                        <td>4</td>
+                        <td>UI Fundamentals</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD405" class="programs" id="MAD405">MAD405</a></td>
+                        <td>4</td>
+                        <td>Android Development III</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD410" class="programs" id="MAD410">MAD410</a></td>
+                        <td>4</td>
+                        <td>iOS Development II</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
+                        <td>3</td>
+                        <td>Choose one General Education Elective</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD401" class="programs" id="MAD401">MAD401</a></td>
+                        <td>3</td>
+                        <td>C# Programming</td>
+                    </tr>
+                    <tr class="quarterspace"></tr>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 5 | Fall 2022</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD500" class="programs" id="MAD500">MAD500</a></td>
+                        <td>4</td>
+                        <td>Designing Web Sites for Mobile</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD501" class="programs" id="MAD501">MAD501</a></td>
+                        <td>3</td>
+                        <td>Agile Project Management</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD506" class="programs" id="MAD506">MAD506</a></td>
+                        <td>4</td>
+                        <td>Fundamentals of Game Development I</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD503" class="programs" id="MAD503">MAD503</a></td>
+                        <td>3</td>
+                        <td>Portfolio Development</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD510" class="programs" id="MAD510">MAD510</a></td>
+                        <td>4</td>
+                        <td>iOS Advanced Development III</td>
+                    </tr>
+                    <tr class="quarterspace"></tr>
+                    <tr class="onerowspace"></tr>
+                    <tr class="firstrow">
+                        <td colspan="3">Semester 6 | Winter 2023 (Grad)</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#WEB615" class="programs" id="WEB615">WEB615</a></td>
+                        <td>4</td>
+                        <td>New Technologies and Trends</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD601" class="programs" id="MAD601">MAD601</a></td>
+                        <td>4</td>
+                        <td>Mobile Application Project</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#MAD606" class="programs" id="MAD606">MAD606</a></td>
+                        <td>4</td>
+                        <td>Fundamentals of Game Development II</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
+                        <td>3</td>
+                        <td>Choose one General Education Course</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#ENT500" class="programs" id="ENT500">ENT500</a></td>
+                        <td>3</td>
+                        <td>Entrepreneurship</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p class="clear"></p>
+            </div>
             <div class="tables fall2019">
                 <h2>FALL 2019 COHORT</h2>
                 <table class="table table-hover" id="theprograms">
@@ -327,7 +541,7 @@ include "includes/header.php";
                         <td>HTML & CSS</td>
                     </tr>
                     <tr>
-                        <td><a href="#MAD102" class="programs" id="MAD102">MAD102</a></td>
+                        <td><a href="#MIT153" class="programs" id="MIT153">MIT153</a></td>
                         <td>4</td>
                         <td>Introductory Programming Logic</td>
                     </tr>
@@ -701,214 +915,6 @@ include "includes/header.php";
                     <tr class="onerowspace"></tr>
                     <tr class="firstrow">
                         <td colspan="3">Semester 6 Winter 2020(Grad)</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#WEB615" class="programs" id="WEB615">WEB615</a></td>
-                        <td>4</td>
-                        <td>New Technologies and Trends</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD602" class="programs" id="MAD602">MAD602</a></td>
-                        <td>7</td>
-                        <td>Mobile Application Project</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD606" class="programs" id="MAD606">MAD606</a></td>
-                        <td>4</td>
-                        <td>Fundamentals of Game Development II</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
-                        <td>3</td>
-                        <td>Choose one General Education Course</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#ENT500" class="programs" id="ENT500">ENT500</a></td>
-                        <td>3</td>
-                        <td>Entrepreneurship</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <p class="clear"></p>
-            </div>
-            <div class="tables fall2016">
-                <h2>FALL 2016 COHORT</h2>
-                <table class="table table-hover" id="theprograms">
-                    <thead>
-                    <tr>
-                        <th>Code</th>
-                        <th>Credit</th>
-                        <th>Course Name</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 1 | Fall 2016</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#WEB110" class="programs" id="WEB110">WEB110</a></td>
-                        <td>4</td>
-                        <td>HTML & CSS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MIT153" class="programs" id="MIT153">MIT153</a></td>
-                        <td>4</td>
-                        <td>Introductory Programming Logic</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD101" class="programs" id="MAD101">MAD101</a></td>
-                        <td>4</td>
-                        <td>Working with Graphics</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD100" class="programs" id="MAD100">MAD100</a></td>
-                        <td>5</td>
-                        <td>Java Programming I</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
-                        <td>3</td>
-                        <td>Choose one General Education Course</td>
-                    </tr>
-                    <tr class="quarterspace"></tr>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 2 | Winter 2017</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#WEB205" class="programs" id="WEB205">WEB205</a></td>
-                        <td>4</td>
-                        <td>PHP Basics</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#WEB210" class="programs" id="WEB210">WEB210</a></td>
-                        <td>4</td>
-                        <td>Web Design / CSS</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#WEB230" class="programs" id="WEB230">WEB230</a></td>
-                        <td>4</td>
-                        <td>Javascript I</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD200" class="programs" id="MAD200">MAD200</a></td>
-                        <td>4</td>
-                        <td>Java Programming II</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD205" class="programs" id="MAD205">MAD205</a></td>
-                        <td>4</td>
-                        <td>Android Development I</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD103" class="programs" id="MAD103">MAD202</a></td>
-                        <td>2</td>
-                        <td>Data Fundamentals</td>
-                    </tr>
-                    <tr class="quarterspace"></tr>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 3 | Fall 2017</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD303" class="programs" id="MAD303">MAD303</a></td>
-                        <td>4</td>
-                        <td>Web Applications with PHP and MYSQL</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD304" class="programs" id="MAD304">MAD304</a></td>
-                        <td>4</td>
-                        <td>Object-Oriented Analysis and Design</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD300" class="programs" id="MAD300">MAD300</a></td>
-                        <td>4</td>
-                        <td>Java Programming III</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD305" class="programs" id="MAD305">MAD305</a></td>
-                        <td>4</td>
-                        <td>Android Development II</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD310" class="programs" id="MAD310">MAD310</a></td>
-                        <td>5</td>
-                        <td>iOS Development I</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <table class="table table-hover" id="theprograms2">
-                    <thead>
-                    <tr>
-                        <th>Code</th>
-                        <th>Credit</th>
-                        <th>Course Name</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 4 | Winter 2018</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD403" class="programs" id="MAD403">MAD403</a></td>
-                        <td>4</td>
-                        <td>Advanced Web Applications with PHP and MYSQL</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD402" class="programs" id="MAD402">MAD402</a></td>
-                        <td>4</td>
-                        <td>UI Fundamentals</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD405" class="programs" id="MAD405">MAD405</a></td>
-                        <td>4</td>
-                        <td>Android Development III</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD410" class="programs" id="MAD410">MAD410</a></td>
-                        <td>4</td>
-                        <td>iOS Development II</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#COM401" class="programs" id="COM401">COM401</a></td>
-                        <td>3</td>
-                        <td>Communications in a Changing World</td>
-                    </tr>
-                    <tr class="quarterspace"></tr>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 5 | Fall 2018</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD500" class="programs" id="MAD500">MAD500</a></td>
-                        <td>4</td>
-                        <td>Designing Web Sites for Mobile</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD501" class="programs" id="MAD501">MAD501</a></td>
-                        <td>3</td>
-                        <td>Agile Project Management</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD506" class="programs" id="MAD506">MAD506</a></td>
-                        <td>4</td>
-                        <td>Fundamentals of Game Development I</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD502" class="programs" id="MAD502">MAD502</a></td>
-                        <td>4</td>
-                        <td>Portfolio Development</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#MAD510" class="programs" id="MAD510">MAD510</a></td>
-                        <td>4</td>
-                        <td>iOS Advanced Development III</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#ELEC1030" class="programs" id="ELEC1030">ELEC1030</a></td>
-                        <td>3</td>
-                        <td>Choose one General Education Course</td>
-                    </tr>
-                    <tr class="quarterspace"></tr>
-                    <tr class="firstrow">
-                        <td colspan="3">Semester 6 | Winter 2019 (Grad)</td>
                     </tr>
                     <tr>
                         <td><a href="#WEB615" class="programs" id="WEB615">WEB615</a></td>

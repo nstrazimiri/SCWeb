@@ -6,7 +6,7 @@
                     <ul class="f-menu-1">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="program.php">Program</a></li>
-                        <li><a href="resources.php">Resources</a></li>
+                        <li><a href="testimonials.php">Testimonials</a></li>
                         <li><a href="faq.php">FAQS</a></li>
                         <li><a href="staff.php">Staff</a></li>
                     </ul>
@@ -61,7 +61,7 @@
             <p class="clear"></p>
         </div>
     </div>
-    <p class="f-copyright">St. Clair College | All Rights Reserved <?= date("Y"); ?> &copy;</p>
+    <p class="f-copyright">Developed by <a class="text-white" target="_blank" href="http://strazi.ca?ref=scweb">Ndriçim Strazimiri</a> for St. Clair College | All Rights Reserved <?= date("Y"); ?> &copy;</p>
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

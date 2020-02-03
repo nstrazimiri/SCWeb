@@ -17,10 +17,10 @@
 	<header>
 		<div class="container madindex d-flex">
 			<div class="logo">
-				<a href="../index.php"><img src="../images/sob-logo.png" alt="Zekelman School of Business"></a>
+				<a href="index.php"><img src="../images/sob-logo.png" alt="Zekelman School of Business"></a>
 			</div>
 			<div class="ttl justify-content-center align-self-center">
-				<h1>Mobile application development</h1>
+				<h1>Mobile Applications Development</h1>
 			</div>
 			<p class="clear"></p>
 		</div>
@@ -39,14 +39,13 @@
 						<a class="nav-link" href="program.php">Program</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" href="testimonials.php">Testimonials</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link" href="staff.php">Staff</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="resources.php">Resources</a>
-							<a class="dropdown-item" href="faq.php">FAQ</a>
-						</div>
+					<li class="nav-item">
+						<a class="nav-link" href="faq.php">FAQ</a>
 					</li>
 				</ul>
 			</div>

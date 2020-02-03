@@ -1,3 +1,6 @@
+<?php
+header("Location: ./mad/");
+?>
 <!doctype html>
 <html lang="en">
   <head>
