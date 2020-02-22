@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md-3">
                     <h3>Peter Nikita</h3>
-                    <p>MAD Program Co-ordinator</p>
+                    <p>MAD/WEB Program Co-ordinator</p>
                     <ul class="f-menu-4">
                         <li><a href="mailto:pnikita@stclaircollege.ca">pnikita@stclaircollege.ca</a></li>
                         <li><a href="tel:519 972 2727">519 972 2727 ext 4329</a></li>

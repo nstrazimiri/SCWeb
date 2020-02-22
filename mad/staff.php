@@ -15,7 +15,7 @@ include "includes/header.php";
                 a strong portfolio along the way. Employers tell us that our graduates are skilled and work-ready and
                 are valuable additions to their teams. Each year a few students choose to continue their education at a
                 university of their choice either on one of our articulation agreements or by creating their own. We are
-                elated that you choose this program and we are here to support you along the way! </p>
+                elated that you chose this program and we are here to support you along the way! </p>
 
             <br/>
             <p class="h4 text-center">Enjoy your time at St. Clair!</p>
@@ -34,17 +34,17 @@ include "includes/header.php";
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Anthony Mancini(Chair)</td>
-                    <td>255</td>
-                    <td>4299</td>
-                </tr>
-                <tr>
                     <td>Jim Marsh (Dean)</td>
                     <td>255</td>
                     <td>4356</td>
                 </tr>
                 <tr>
-                    <td>Peter Nikita (MAD/WEB)</td>
+                    <td>Anthony Mancini(Chair)</td>
+                    <td>255</td>
+                    <td>4299</td>
+                </tr>
+                <tr>
+                    <td>Peter Nikita (MAD/WEB Coordinator)</td>
                     <td>67</td>
                     <td>4329</td>
                 </tr>
@@ -69,14 +69,19 @@ include "includes/header.php";
                     <td>4193</td>
                 </tr>
                 <tr>
-                    <td>Nasser Hamami</td>
-                    <td>65</td>
-                    <td>4443</td>
+                    <td>Andrew Steele</td>
+                    <td>68</td>
+                    <td>4993</td>
                 </tr>
                 <tr>
                     <td>Ruth Susannah (NET Coordinator)</td>
                     <td>79</td>
                     <td>4729</td>
+                </tr>
+                <tr>
+                    <td>Nasser Hamami</td>
+                    <td>65</td>
+                    <td>4443</td>
                 </tr>
                 <tr>
                     <td>Franco Iacobacci</td>
@@ -92,11 +97,6 @@ include "includes/header.php";
                     <td>John Sanderson</td>
                     <td>65</td>
                     <td>4114</td>
-                </tr>
-                <tr>
-                    <td>Andrew Steele</td>
-                    <td>68</td>
-                    <td>4993</td>
                 </tr>
                 <tr>
                     <td>Carsen Siu</td>
