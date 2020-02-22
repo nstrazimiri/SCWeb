@@ -63,7 +63,7 @@
 					<div class="n-divide"></div>
 					<div class="news-item">
 						<h3 class="n-title">Crimson Crypt – Capstone Project</h3>
-						<p><img class="img-fluid" src="../images/WCEntertainment-Will-Coulter-and-Colin-Landry.png" alt="WCEntertainment – Will Coulter and Colin Landry">A PC roguelike game with an emphasis on resource management and fast, skills-based combat.
+						<p><img style="max-height: 440px;" class="img-fluid float-none d-block mx-auto" src="../images/WCEntertainment-Will-Coulter-and-Colin-Landry.png" alt="WCEntertainment – Will Coulter and Colin Landry"></p><p>A PC roguelike game with an emphasis on resource management and fast, skills-based combat.
                             Created by WCEntertainment – Will Coulter and Colin Landry 2019.</p>
 						<a href="../videos/Crimson-Crypt–Capstone-Project.mp4">more >></a>
 					</div>

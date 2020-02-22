@@ -63,8 +63,6 @@
     </div>
     <p class="f-copyright">Developed by <a class="text-white" target="_blank" href="http://strazi.ca?ref=scweb">Ndriçim Strazimiri</a> for St. Clair College | All Rights Reserved <?= date("Y"); ?> &copy;</p>
 </footer>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

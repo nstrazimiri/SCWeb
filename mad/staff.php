@@ -19,9 +19,13 @@ include "includes/header.php";
 
             <br/>
             <p class="h4 text-center">Enjoy your time at St. Clair!</p>
-            <p class="w-75 mx-auto text-left"><br/><br/>Peter Nikita,<br/>
-                Coordinator, Mobile Applications Development<br/>
-                Zekelman School of Business and I.T.</p>
+            <blockquote class="blockquote w-75 mx-auto">
+                <footer class="blockquote-footer">
+                    <p class="font-weight-bold">Peter Nikita</p>
+                    <p>Coordinator, Mobile Applications Development<br/>
+                        Zekelman School of Business and I.T</p>
+                </footer>
+            </blockquote>
 
             <h2 class="t-staff">Technology Staff</h2>
             <table class="table thestaff">
@@ -42,6 +46,11 @@ include "includes/header.php";
                     <td>Anthony Mancini(Chair)</td>
                     <td>255</td>
                     <td>4299</td>
+                </tr>
+                <tr>
+                    <td>Janice Trpkovski (Operations Manager)</td>
+                    <td>255</td>
+                    <td>5221</td>
                 </tr>
                 <tr>
                     <td>Peter Nikita (MAD/WEB Coordinator)</td>
@@ -103,11 +112,7 @@ include "includes/header.php";
                     <td>65</td>
                     <td>5316</td>
                 </tr>
-                <tr>
-                    <td>Janice Trpkovski</td>
-                    <td>255</td>
-                    <td>5221</td>
-                </tr>
+
                 </tbody>
             </table>
             <cite>"There is much growth anticipated in the Information Technology field - and we are here to guide and
