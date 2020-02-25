@@ -19,6 +19,7 @@ include "includes/header.php";
                                         <li data-target="#TestimonialsSliderIndicators" data-slide-to="2"></li>
                                         <li data-target="#TestimonialsSliderIndicators" data-slide-to="3"></li>
                                         <li data-target="#TestimonialsSliderIndicators" data-slide-to="4"></li>
+                                        <li data-target="#TestimonialsSliderIndicators" data-slide-to="5"></li>
                                     </ol>
                                     <div class="carousel-inner mt-4">
                                         <div class="carousel-item text-center active">
@@ -48,6 +49,22 @@ include "includes/header.php";
                                                 here in Windsor-Essex."</p>
                                             <h5 class="mt-4 mb-0"><span class="text-uppercase">Yvonne Pilon</span> -
                                                 <span class="text-dark m-0">President, WEtech Alliance</span></h5>
+                                        </div>
+                                        <div class="carousel-item text-center">
+                                            <div class="img-box p-1 m-auto">
+                                                <img class="d-block w-100" src="../images/Alan-Crouse-Testimonial.jpg"
+                                                     alt="Alan Crouse">
+                                            </div>
+                                            <p class="m-0 pt-3 text-white">"We’ve just hired our first employee from the
+                                                Mobile Applications Development program and we’ve been nothing short of
+                                                completely satisfied. The program builds the developer’s ability and
+                                                confidence in coding but also nurtures an understanding in the user
+                                                experience of an application. In an ever-changing world of technology,
+                                                the program successfully strives to stay modern and up-to-date, teaching
+                                                some of the newest platforms as they emerge."</p>
+                                            <h5 class="mt-4 mb-0"><span class="text-uppercase">Alan Crouse</span> -
+                                                <span class="text-dark m-0">Partner, Generator Design of Canada Inc.</span>
+                                            </h5>
                                         </div>
                                         <div class="carousel-item text-center">
                                             <div class="img-box p-1 m-auto">
