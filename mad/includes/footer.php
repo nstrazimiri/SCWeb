@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md-3">
                     <h3>Peter Nikita</h3>
-                    <p>MAD Program Co-ordinator</p>
+                    <p>MAD/WEB Program Co-ordinator</p>
                     <ul class="f-menu-4">
                         <li><a href="mailto:pnikita@stclaircollege.ca">pnikita@stclaircollege.ca</a></li>
                         <li><a href="tel:519 972 2727">519 972 2727 ext 4329</a></li>
@@ -63,8 +63,6 @@
     </div>
     <p class="f-copyright">Developed by <a class="text-white" target="_blank" href="http://strazi.ca?ref=scweb">Ndriçim Strazimiri</a> for St. Clair College | All Rights Reserved <?= date("Y"); ?> &copy;</p>
 </footer>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

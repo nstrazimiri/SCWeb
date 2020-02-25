@@ -159,6 +159,13 @@ li.dropdown div.dropdown-menu a.active {
     width: 7% !important;
     opacity: 1 !important;
 }
+.testimonials .carousel-indicators .active{
+    background-color: #006b35 !important;
+}
+
+.testimonials.students .carousel-indicators .active{
+    background-color: #ffc42c !important;
+}
 
 .carousel.slide.sbig .carousel-control-prev-icon, .carousel.slide.sbig .carousel-control-next-icon {
     background: none !important;
@@ -227,7 +234,7 @@ li.dropdown div.dropdown-menu a.active {
     border: 1px solid #006b35;
 }
 .courses{
-    background: rgb(208, 208, 208);
+    background: rgb(249, 249, 249);
 }
 .courses h2, .testimonials h2, .news h2 {
     font-family: 'Raleway', sans-serif;
@@ -635,9 +642,18 @@ table.thestaff td {
 .staff cite {
     font-variant: small-caps;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     margin: 45px auto;
     display: block;
+}
+
+.blockquote-footer{
+    color: #000 !important;
+}
+.blockquote-footer::before{
+    color: #006b35;
+    font-size: 2rem;
 }
 
 .resources h2 {
@@ -685,6 +701,7 @@ h3.ui-accordion-header {
     color: #fff;
     margin-top: 5px;
     cursor: pointer;
+    position: relative;
 }
 
 h3.ui-accordion-header::after {
@@ -699,6 +716,8 @@ h3.ui-accordion-header::after {
     border-bottom: 0;
     border-left: .3em solid transparent;
     font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
 }
 
 h3.ui-state-active::after{
@@ -715,6 +734,7 @@ h3.ui-state-active::after{
 
 .navbar-light .navbar-toggler {
     border-color: rgb(255, 255, 255);
+    margin: 5px;
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
@@ -905,6 +925,10 @@ h3.ui-state-active::after{
 }
 
 @media (min-width: 300px) and (max-width: 499px) {
+
+    .btn{
+        width: 24%;
+    }
     .carousel-inner .carousel-item p {
         font-size: 14px;
     }
@@ -922,27 +946,32 @@ h3.ui-state-active::after{
     }
 
     header .ttl {
-        width: 290px;
+        width: 220px;
     }
 
     header .ttl h1 {
-        width: 300px;
+        width: 100%;
         font-size: 17px;
-        margin-top: 15px;
     }
 
     header .logo {
         width: 180px;
-        height: 76px;
+        height: 70px;
+        margin-bottom: 12px;
     }
 
     .welcome {
         width: 320px;
-        height: 155px;
+        height: 225px;
+        background-image: none;
+        border-top: 1px solid #006b35;
+        border-bottom: 1px solid #006b35;
     }
 
     .welcome p {
         font-size: 13px;
+        line-height: 17px;
+        padding: 10px 10px;
     }
 
     .action-area p {
@@ -955,18 +984,31 @@ h3.ui-state-active::after{
         font-size: 14px;
     }
 
+    .courses li{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+    }
+
     .testimonials .container.nd {
         margin-top: -15px;
     }
 
     .testimonials .carousel-control-next {
         right: -15px;
-        top: -300px;
     }
 
     .testimonials .carousel-control-prev {
         left: -15px;
-        top: -300px;
+    }
+
+    .staff h2,.resources h2{
+        left: 2% !important;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    table.thestaff{
+        width: 100%;
     }
 
     .news .news-item {
@@ -993,5 +1035,15 @@ h3.ui-state-active::after{
 
     table#theprograms2 {
         margin-left: 0px;
+    }
+    table#theprograms,table#theprograms2{
+        width: 100%;
+    }
+
+    h3.ui-accordion-header{
+        padding-right: 50px;
+    }
+    nav.bg-mad .navbar-nav li{
+        margin-left: 25px;
     }
 }

@@ -15,13 +15,17 @@ include "includes/header.php";
                 a strong portfolio along the way. Employers tell us that our graduates are skilled and work-ready and
                 are valuable additions to their teams. Each year a few students choose to continue their education at a
                 university of their choice either on one of our articulation agreements or by creating their own. We are
-                elated that you choose this program and we are here to support you along the way! </p>
+                elated that you chose this program and we are here to support you along the way! </p>
 
             <br/>
             <p class="h4 text-center">Enjoy your time at St. Clair!</p>
-            <p class="w-75 mx-auto text-left"><br/><br/>Peter Nikita,<br/>
-                Coordinator, Mobile Applications Development<br/>
-                Zekelman School of Business and I.T.</p>
+            <blockquote class="blockquote w-75 mx-auto">
+                <footer class="blockquote-footer">
+                    <p class="font-weight-bold">Peter Nikita</p>
+                    <p>Coordinator, Mobile Applications Development<br/>
+                        Zekelman School of Business and I.T</p>
+                </footer>
+            </blockquote>
 
             <h2 class="t-staff">Technology Staff</h2>
             <table class="table thestaff">
@@ -34,17 +38,22 @@ include "includes/header.php";
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Anthony Mancini(Chair)</td>
-                    <td>255</td>
-                    <td>4299</td>
-                </tr>
-                <tr>
                     <td>Jim Marsh (Dean)</td>
                     <td>255</td>
                     <td>4356</td>
                 </tr>
                 <tr>
-                    <td>Peter Nikita (MAD/WEB)</td>
+                    <td>Anthony Mancini(Chair)</td>
+                    <td>255</td>
+                    <td>4299</td>
+                </tr>
+                <tr>
+                    <td>Janice Trpkovski (Operations Manager)</td>
+                    <td>255</td>
+                    <td>5221</td>
+                </tr>
+                <tr>
+                    <td>Peter Nikita (MAD/WEB Coordinator)</td>
                     <td>67</td>
                     <td>4329</td>
                 </tr>
@@ -69,14 +78,19 @@ include "includes/header.php";
                     <td>4193</td>
                 </tr>
                 <tr>
-                    <td>Nasser Hamami</td>
-                    <td>65</td>
-                    <td>4443</td>
+                    <td>Andrew Steele</td>
+                    <td>68</td>
+                    <td>4993</td>
                 </tr>
                 <tr>
                     <td>Ruth Susannah (NET Coordinator)</td>
                     <td>79</td>
                     <td>4729</td>
+                </tr>
+                <tr>
+                    <td>Nasser Hamami</td>
+                    <td>65</td>
+                    <td>4443</td>
                 </tr>
                 <tr>
                     <td>Franco Iacobacci</td>
@@ -94,20 +108,11 @@ include "includes/header.php";
                     <td>4114</td>
                 </tr>
                 <tr>
-                    <td>Andrew Steele</td>
-                    <td>68</td>
-                    <td>4993</td>
-                </tr>
-                <tr>
                     <td>Carsen Siu</td>
                     <td>65</td>
                     <td>5316</td>
                 </tr>
-                <tr>
-                    <td>Janice Trpkovski</td>
-                    <td>255</td>
-                    <td>5221</td>
-                </tr>
+
                 </tbody>
             </table>
             <cite>"There is much growth anticipated in the Information Technology field - and we are here to guide and
