@@ -67,6 +67,6 @@
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="js/custom.js?v=<?=date('y i s h m');?>" ></script>
+<script type="text/javascript" src="js/custom.js" ></script>
 </body>
 </html>

@@ -220,9 +220,9 @@ include "includes/header.php";
                         <td>Advanced Web Applications with PHP and MYSQL</td>
                     </tr>
                     <tr>
-                        <td><a href="#MAD402" class="programs" id="MAD402">MAD402</a></td>
+                        <td><a href="#MAD400" class="programs" id="MAD400">MAD400</a></td>
                         <td>4</td>
-                        <td>UI Fundamentals</td>
+                        <td>Frameworks</td>
                     </tr>
                     <tr>
                         <td><a href="#MAD405" class="programs" id="MAD405">MAD405</a></td>
@@ -249,14 +249,14 @@ include "includes/header.php";
                         <td colspan="3">Semester 5 | Fall 2022</td>
                     </tr>
                     <tr>
-                        <td><a href="#MAD500" class="programs" id="MAD500">MAD500</a></td>
+                        <td><a href="#MAD402" class="programs" id="MAD402">MAD402</a></td>
                         <td>4</td>
-                        <td>Designing Web Sites for Mobile</td>
+                        <td>UI Fundamentals</td>
                     </tr>
                     <tr>
-                        <td><a href="#MAD501" class="programs" id="MAD501">MAD501</a></td>
+                        <td><a href="#MAD512" class="programs" id="MAD512">MAD512</a></td>
                         <td>3</td>
-                        <td>Agile Project Management</td>
+                        <td>Cross Platform Development</td>
                     </tr>
                     <tr>
                         <td><a href="#MAD506" class="programs" id="MAD506">MAD506</a></td>

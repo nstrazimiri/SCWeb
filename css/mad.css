@@ -86,7 +86,8 @@ header .logo {
     float: left;
     padding-right: 20px;
     border-right: 4px solid #ffc42c;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 7px;
 }
 
 header .logo img {
